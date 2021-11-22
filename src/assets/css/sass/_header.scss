@@ -1,0 +1,30 @@
+header {
+    padding: 28px 0 34px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .site-logo {
+            img {
+                @media (max-width: 768px) {
+                    width: 183px;
+                    height: 31px;
+                }
+            }
+        }
+        .site-menus {
+            display: flex;
+            align-items: center;
+            button.lang-picker {
+                color: white;
+                padding: 7px;
+                font-size: 14px;
+                font-weight: bold;
+                border-radius: 10px;
+                svg {
+                    fill: #373749;
+                }
+            }
+        }
+    }
+}
